@@ -1,0 +1,17 @@
+{
+  "name": "webhook-koa",
+  "version": "1.0.0",
+  "description": "webhook api",
+  "main": "main.js",
+  "scripts": {
+    "dev": "pm2 start index.js --watch && pm2 logs"
+  },
+  "author": "",
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "koa": "^2.15.4",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "koa2-request": "^1.0.4"
+  }
+}
